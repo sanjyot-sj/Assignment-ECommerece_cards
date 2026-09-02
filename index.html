@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="out" style="background-color: rgb(204, 203, 203); width: 100%; display: flow-root;"> 
+        <!-- Main back page-->
+    <!-- 2nd layer ontainer Start here-->    
+    <div class="container mt-4">
+        <!-- Navbar Starts here-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div>
+            <span><h4>Interior_Studio</h4></span> 
+        </div>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./addproducts.html">Add Product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            collection
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                 <div class="text-right d-flex justify-content-end" style="width: 55%;">
+                    <input class="form-control me-2" type="search" placeholder="Search" style="width:340px;">
+                    <button class="btn btn-outline-success" type="submit">Search</button> 
+                    <a class="nav-link" href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping" style="font-size: 20px"></i></a>        
+                    <sup class="carticonsup">0</sup>           
+                </div>
+                 
+            </div>
+        </div>
+    </nav><!-- Navbar end here taken from bootstrap-->
+
+    <!-- Hero Section Start here-->
+    <div class="container1" style="background-image: url('./first.jfif'); background-size: cover; 
+               background-position: center; min-height: 500px;">
+                <h1 class="container1_heading"> Design your <br> Dream Living Space</h1>
+                <p class="container1_heading_line">Stylish Furniture & Decore to elevate your Dream Home</p>
+    </div> <!-- Hero Section Ends here-->
+    
+    <!-- rendern products section. will show added Cards here-->
+    <div class="container" style="background-color:blanchedalmond; background-size: cover; 
+               background-position: center; min-height: 500px;">
+        <div class="row" id="renderproducts">
+            
+        </div>       
+    </div>
+
+    <!--Third container-->
+     <div class="container3" style="background-image: url('./second.jfif'); background-size: cover; 
+               background-position: center; min-height: 500px;">
+    </div>
+    </div> <!-- 2nd layer ontainer end here-->
+</div><!-- background plain gray container end here-->
+
+
+
+
+
+    <Script src="./script.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
